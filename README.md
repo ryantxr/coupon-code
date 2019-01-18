@@ -2,6 +2,16 @@
 
 This is a flexible coupon code generator.
 
+A 'Coupon Code' is made up of letters and numbers grouped into 4 character
+'parts'.  For example, a 3-part code might look like this:
+
+  1K7Q-CTFM-LMTC
+  
+Coupon Codes are random codes which are easy for the recipient to type
+accurately into a web form.  An example application might be to print a code on
+a letter to a customer who would then enter the code as part of the
+registration process for web access to their account.
+
 ## Installation
 
     composer require ryantxr/coupon-code

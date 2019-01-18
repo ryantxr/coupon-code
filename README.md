@@ -2,11 +2,16 @@
 
 This is a flexible coupon code generator.
 
+## Installation
+
+    composer require ryantxr/coupon-code
+
 ## Static Usage
 
 ```php
 \Ryantxr\CouponCode\Generator::generate(); // generate a code
 \Ryantxr\CouponCode\Generator::generate(true); // generate a lowercase code
+$bytes = random_bytes(16);
 \Ryantxr\CouponCode\Generator::generate(true, $bytes); // generate a lower case code and pass in the random bytes
 \Ryantxr\CouponCode\Generator::init(['numberOfSegments' => 5, 'segmentLength' => 4])->generateCode(); // generate a code
 ```
@@ -17,9 +22,9 @@ This is a flexible coupon code generator.
 $codeGenerator = new \Ryantxr\CouponCode\Generator();
 $codeGenerator = new \Ryantxr\CouponCode\Generator(['numberOfSegments' => 5, 'segmentLength' => 4]);
 
-$code = $codeGenerator->generate();
-$code = $codeGenerator->generate(true); // generate a lowercase code
-$code = $codeGenerator->generate(true, $randomBytes); // generate a lowercase code, passing in the random bytes
+$code = $codeGenerator->generateCode();
+$code = $codeGenerator->generateCode(true); // generate a lowercase code
+$code = $codeGenerator->generateCode(true, $randomBytes); // generate a lowercase code, passing in the random bytes
 ```
 
 ## See also

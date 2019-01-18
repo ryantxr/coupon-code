@@ -24,14 +24,10 @@ $code = $codeGenerator->generate(true, $randomBytes); // generate a lowercase co
 
 ## See also
 
-[perl](https://github.com/grantm/Algorithm-CouponCode)
+[perl](https://github.com/grantm/Algorithm-CouponCode) https://github.com/grantm/Algorithm-CouponCode
 
-[NodeJS](https://www.npmjs.com/package/coupon-code)
+[NodeJS](https://www.npmjs.com/package/coupon-code) https://www.npmjs.com/package/coupon-code
 
-[Ruby](https://rubygems.org/gems/coupon_code/versions/0.0.1)
+[Ruby](https://rubygems.org/gems/coupon_code/versions/0.0.1) https://rubygems.org/gems/coupon_code/versions/0.0.1
 
-[php](https://github.com/atelierdisko/coupon_code)
-
-
-    - git add . && git commit -m'initial'
-
+[php](https://github.com/atelierdisko/coupon_code) https://github.com/atelierdisko/coupon_code

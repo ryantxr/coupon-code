@@ -2,7 +2,7 @@
     "name": "ryantxr/coupon-code",
     "description": "Generates coupon codes.",
     "keywords": ["coupon", "codes"],
-    "license": "DBAD",
+    "license": "MIT",
     "authors": [
         {
             "name": "Ryan Teixeira",
